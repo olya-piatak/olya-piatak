@@ -19,4 +19,4 @@ I spend most of my time below the UI: API contracts, event streams, database sta
 
 ### Contact
 
-[LinkedIn](https://linkedin.com/in/olya-piatak) · olya.v.piatak@gmail.com
+[LinkedIn](https://linkedin.com/in/olya-piatak)
