@@ -18,7 +18,7 @@ I spend most of my time below the UI: API contracts, event streams, database sta
   One Slack message each morning instead of a page of logs. Errors are grouped before the LLM sees them, so a bad day costs the same as a quiet one.
 
 - **[after-the-200](https://github.com/olya-piatak/after-the-200)** · Java, Spring Boot, Kafka, Testcontainers
-  A box office where Kafka delivers twice and ten fans want the same seat. The tests check the database and the topic after every call, not just the 201.
+  A box office where Kafka delivers twice and ten fans want the same seat. Two consumers, one ticket, one seat, and a test for each way that goes wrong.
 
 ### Contact
 
