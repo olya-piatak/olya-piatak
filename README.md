@@ -1,50 +1,22 @@
-# TS Practice — біглість для кодинг-скрінів
+### Hi, I'm Olya
 
-Пак заточений під формат "чиста функція на вхід, значення на вихід" (Qualified, Codewars, LeetCode easy).
-Мета не вивчити TypeScript з нуля, а напрацювати рефлекс на методи рядків/масивів і типові патерни задач під таймером.
+QA Automation Engineer with 7 years in web, mobile and API testing across healthcare, logistics, data and defence products.
 
-## Як запустити в IDEA / WebStorm
+I spend most of my time below the UI: API contracts, event streams, database state. The screen is a good place to start.
 
-1. Відкрити папку як проєкт.
-2. У терміналі: `npm install`
-3. Режим спостереження (перезапускає тести при збереженні): `npm run watch`
-4. Або разовий прогін: `npm test`
+**Stack:** Playwright, TypeScript, Java, Selenium, Appium, RestAssured, Python, SQL, Kafka, GitHub Actions, Docker
 
-У WebStorm/IDEA біля кожного `it(...)` зліва зелена/червона іконка — тиснеш play і ганяєш окремий тест.
-Свій файл редагуєш у `src/NN_назва/solution.ts`, тести лежать поряд у `solution.test.ts`.
+### Projects
 
-Правило: спершу вирішуєш сама, тести зелені — тоді звіряєшся з `SOLUTIONS.md`. Не навпаки.
+- **[below-the-ui](https://github.com/olya-piatak/below-the-ui)** · Playwright, TypeScript
+  A small shop with five bugs you can switch on: a double charge, a lost event, an order anyone can open. CI fails if the suite stays green on any of them.
 
-## План на 2 тижні (~1.5 год/день, стискається до 1 тижня при подвійному обсязі)
+- **[payout-harness](https://github.com/olya-piatak/payout-harness)** · Python, pytest, Hypothesis
+  Tip payouts that settle in the background. Hypothesis generates the awkward amounts, so I don't have to guess which ones break the split.
 
-### Тиждень 1 — біглість синтаксису (vocabulary)
+- **[error-triage](https://github.com/olya-piatak/error-triage)** · TypeScript, LLM, Slack
+  One Slack message each morning instead of a page of logs. Errors are grouped before the LLM sees them, so a bad day costs the same as a quiet one.
 
-Це фундамент. Без автоматизму тут задачі завжди будуть боляче.
+### Contact
 
-- День 1-2: Рядки. `split`, `join`, `slice`, `replace`, `toLowerCase`, `includes`, template literals.
-  Масиви база: `map`, `filter`, `find`, `some`, `every`.
-  Задачі: 01, 02, 03, 04.
-- День 3-4: `reduce`, `Map`, `Set`, об'єкти, частотні лічильники, групування.
-  Задачі: 05, 06, 07, 10.
-- День 5: `sort` з компаратором, `Object.entries/keys/values`, спред `...`.
-  Закріплення: переробити 05 і 07 другим способом (через `reduce`).
-
-### Тиждень 2 — патерни задач
-
-- День 6-7: хешмапа замість вкладеного циклу (два проходи замість O(n^2)). Задача 08.
-- День 8-9: рядкові задачі та two pointers (паліндром, парсинг, нормалізація).
-- День 10: проста рекурсія + базове розуміння O(n) vs O(n^2). Чому 08 краще за подвійний цикл.
-- День 11-12: таймовані мікс-задачі на Codewars, 8 kyu -> 6 kyu.
-- День 13-14: моки реальних скрінів. Codewars 6 kyu під таймер + LeetCode easy.
-
-## Де практикуватись із перевіркою
-
-- Цей пак — локально, миттєвий зелений/червоний у IDE.
-- Codewars — найкраще для біглості. Фільтр по TypeScript, старт з 8 kyu, далі 7 і 6.
-- LeetCode — секція easy, добірка Top Interview Questions.
-- TypeScript Playground (typescriptlang.org/play) — швидкі експерименти, видно типи й помилки на льоту.
-
-## Чесний орієнтир
-
-Біглість приходить від кількості повторень, не від читання. 5 задач щодня краще, ніж 20 за вихідні раз на тиждень.
-Якщо застрягла більше 15 хвилин — глянь підказку в стабі, не SOLUTIONS. Підказка дає напрямок, рішення ти все одно пишеш сама.
+[LinkedIn](https://linkedin.com/in/olya-piatak) · olya.v.piatak@gmail.com
